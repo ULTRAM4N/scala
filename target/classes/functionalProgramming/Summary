@@ -1,0 +1,32 @@
+------------ INTRO -----------
+
+* A scala is a type-safe JVM language.
+ --> Type safe means at the time of compilation of code , compiler will validates types and throw an
+ 	 exception if a wrong type assigned to a variable.
+ 	 
+* It incorporates(includes) both Object-Oriented and functional programming into an extremely concise,
+  high level and expressive languages.
+  
+* Provides frameWorks like Apache Spark for data processing .
+
+??? What is a functional programming?
+
+--> It's a programming pattern that uses functions as a building blocks of a program. 
+
+??? Properties of a function
+
+--> A function should be always REFERENTIAL TRANSPARENT , it means a function should always return the 
+	same result and the expression can be replace by the result.
+	Example : 3 + 4 = 7 
+	Here , 3 + 4 is a expression and it can be replace by result.
+	
+--> A function should be totally pure , means there should be no side effects of using that function and should 
+	return only result.
+	
+--> An impure function interacts with the state of the program and can cause side effects. 
+	States like mutable object , a variable etc.
+
+??? Functions as a First-Class Citizens
+
+--> In scala, every function is a value and the functions act as a first-class citizens.
+ 
