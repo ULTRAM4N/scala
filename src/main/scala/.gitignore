@@ -2,4 +2,6 @@
 /test/
 /resources/
 /package-info.java
-
+.classpath
+.project
+.cache-main
